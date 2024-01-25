@@ -36,6 +36,7 @@ footer {
     display: block; /* Change to block to force each link on a new line */
     width: 150px; /* Adjust the width as needed */
     margin: 10px auto; /* Add space between the links */
+    text-align: center;
     padding: 10px;
     text-decoration: none;
     background-color: #800000;

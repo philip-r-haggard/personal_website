@@ -67,8 +67,3 @@ header img {
     padding: 20px; /* Add padding for space inside the section */
     border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
 }
-
-a[href^="tel"] {
-    color: inherit;
-    text-decoration: none;
-}

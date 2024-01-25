@@ -24,6 +24,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .links {
     display: flex;
     justify-content: space-around;
@@ -42,4 +43,9 @@ footer {
 
 .awesome-link:hover {
     background-color: #45a049;
+}
+
+header img {
+    max-width: 100px; /* Adjust the size as needed */
+    height: auto;
 }

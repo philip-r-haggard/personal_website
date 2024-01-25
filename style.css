@@ -25,15 +25,17 @@ footer {
     width: 100%;
 }
 
-.links {
+.links-container {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    flex-direction: column; /* Display links in a column */
+    align-items: center; /* Center items horizontally */
 }
 
 .awesome-link {
-    display: inline-block;
-    padding: 10px 20px;
+    display: block; /* Change to block to force each link on a new line */
+    width: 150px; /* Adjust the width as needed */
+    margin: 10px auto; /* Add space between the links */
+    padding: 10px;
     text-decoration: none;
     background-color: #4CAF50;
     color: white;
@@ -48,4 +50,18 @@ footer {
 header img {
     max-width: 100px; /* Adjust the size as needed */
     height: auto;
+}
+
+#about {
+    text-align: center;
+    margin: 20px; /* Add margin to the entire section */
+    padding: 20px; /* Add padding for space inside the section */
+    border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
+}
+
+#resume {
+    text-align: left;
+    margin: 20px; /* Add margin to the entire section */
+    padding: 20px; /* Add padding for space inside the section */
+    border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
 }

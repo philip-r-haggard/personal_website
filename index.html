@@ -40,14 +40,16 @@
         <h1>Philip Haggard</h1>
         <p><u>Software Engineer</u></p>
         <p>Email: haggardpr@gmail.com</p>
-        <p id="phone-number"></p>
+        <p><span id="phone-placeholder">Phone number: Loading...</span></p>
         <p><a href="https://github.com/philip-r-haggard/philip-r-haggard.github.io" class="custom-link">Link to the code for this website</a></p>
     </header>
 
     <script>
         // Use JavaScript to dynamically set the phone number
-        document.getElementById("phone-number").innerHTML = "Phone number: <span style='visibility: hidden;'> (256) 274-7149 </span>";
-        document.getElementById("phone-number").style.visibility = "visible";
+        var phoneNumber = "(256) 274-7149";
+        document.getElementById("phone-placeholder").innerHTML = "Phone number: " +
+            "<span style='display:none;' aria-hidden='true'>" + phoneNumber + "</span>" +
+            "<span aria-live='polite'>" + phoneNumber + "</span>";
     </script>
 
     <section id="about" class="center-content">
@@ -63,8 +65,6 @@
             <a href="northrop_grumman.html" class="awesome-link">Northrop Grumman</a>
         </div>
     </section>
-
-    
 
 </body>
 </html>

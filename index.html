@@ -40,7 +40,7 @@
         <h1>Philip Haggard</h1>
         <p><u>Software Engineer</u></p>
         <p>Email: haggardpr@gmail.com</p>
-        <p>Phone number: (256) 274-7149</p>
+        <p id="phone-number"></p>
         <p><a href="https://github.com/philip-r-haggard/philip-r-haggard.github.io" class="custom-link">Link to the code for this website</a></p>
     </header>
 
@@ -57,6 +57,11 @@
             <a href="northrop_grumman.html" class="awesome-link">Northrop Grumman</a>
         </div>
     </section>
+
+    <script>
+        // Use JavaScript to dynamically set the phone number
+        document.getElementById("phone-number").innerHTML = "Phone number: <span style='display:none;'> (256) 274-7149 </span>";
+    </script>
 
 </body>
 </html>

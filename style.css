@@ -50,7 +50,8 @@ footer {
 }
 
 header img {
-    max-width: 80%; /* Adjust the size as needed */
+    width: 80%;
+    max-width: 500px; /* Adjust the size as needed */
     height: auto;
 }
 

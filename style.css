@@ -12,7 +12,9 @@ header {
 }
 
 section {
-    margin: 20px;
+    /*margin: 20px;*/
+    width: auto;
+    text-align: center;
 }
 
 footer {

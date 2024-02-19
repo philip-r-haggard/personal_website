@@ -70,7 +70,8 @@ header img {
 
 #resume {
     text-align: left;
-    margin: 20px; /* Add margin to the entire section */
+    max-width: 500px; /* Set maximum width for the text */
+    margin: 20px auto; /* Center the section horizontally */
     padding: 20px; /* Add padding for space inside the section */
     border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
 }

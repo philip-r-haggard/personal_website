@@ -12,9 +12,7 @@ header {
 }
 
 section {
-    /*margin: 20px;*/
-    width: auto;
-    text-align: center;
+    margin: 20px;
 }
 
 footer {
@@ -58,10 +56,16 @@ header img {
 }
 
 #about {
-    text-align: center;
-    margin: 20px; /* Add margin to the entire section */
+    max-width: 500px; /* Set maximum width for the text */
+    margin: 20px auto; /* Center the section horizontally */
     padding: 20px; /* Add padding for space inside the section */
     border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
+    text-align: center; /* Center-align text */
+}
+
+#about .links {
+    display: inline-block; /* Ensure links stay inline */
+    margin-top: 10px; /* Optional: Add margin to the top of the links */
 }
 
 #resume {

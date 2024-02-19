@@ -28,14 +28,14 @@ footer {
 
 .links-container {
     display: flex;
-    flex-direction: column; /* Display links in a column */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column;
+    align-items: center;
 }
 
 .awesome-link {
-    display: block; /* Change to block to force each link on a new line */
-    width: 150px; /* Adjust the width as needed */
-    margin: 10px auto; /* Add space between the links */
+    display: block;
+    width: 150px;
+    margin: 10px auto;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -49,29 +49,41 @@ footer {
     background-color: #000000;
 }
 
-header img {
+.header-image {
     width: 80%;
-    max-width: 500px; /* Adjust the size as needed */
+    max-width: 500px;
+    height: auto;
+}
+
+.gis-image {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+.northrop-grumman-image {
+    width: 50%;
+    max-width: 350px;
     height: auto;
 }
 
 #about {
-    max-width: 500px; /* Set maximum width for the text */
-    margin: 20px auto; /* Center the section horizontally */
-    padding: 20px; /* Add padding for space inside the section */
-    border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
-    text-align: center; /* Center-align text */
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 #about .links {
-    display: inline-block; /* Ensure links stay inline */
-    margin-top: 10px; /* Optional: Add margin to the top of the links */
+    display: inline-block;
+    margin-top: 10px;
 }
 
 #resume {
     text-align: left;
-    max-width: 500px; /* Set maximum width for the text */
-    margin: 20px auto; /* Center the section horizontally */
-    padding: 20px; /* Add padding for space inside the section */
-    border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
 }

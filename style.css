@@ -66,10 +66,11 @@ footer {
     background-color: #000000;
 }
 
-.header-image {
+.headshot {
     width: 80%;
     max-width: 300px;
     height: auto;
+    border-radius: 15px;
 }
 
 .gis-image {

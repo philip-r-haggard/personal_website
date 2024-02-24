@@ -38,6 +38,10 @@ footer {
     z-index: 999;
 }
 
+#internship-bullets {
+    text-align: left;
+}
+
 .links-container {
     display: flex;
     flex-direction: column;

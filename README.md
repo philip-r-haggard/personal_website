@@ -19,10 +19,6 @@ This website is deployed using GitHub Pages.
 - [Font Awesome](https://fontawesome.com/) - Icon library used for social media icons.
 - [GitHub Pages](https://pages.github.com/) - Free hosting service by GitHub for static websites.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 If you have any questions or suggestions, feel free to contact me:
